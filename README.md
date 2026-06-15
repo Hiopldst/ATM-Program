@@ -7,9 +7,3 @@ A simple ATM simulation made with Python.
 - withdraw money
 - deposit money
 - exit system
-
-## What I learned:
-- while loops
-- conditionals (if / elif / else)
-- variables
-- user input
