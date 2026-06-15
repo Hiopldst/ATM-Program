@@ -1,0 +1,28 @@
+money = 1000
+
+while True:
+   print("Банкомат")
+   print("1 - показать баланс")
+   print("2 - снять деньги с баланса")
+   print("3 - пополнить баланс")
+   print("4 - выход")
+   choice = input("Выберите пункт: ")
+
+   if choice == "1":
+      print(money)
+
+   elif choice == "2":
+      take = int(input("Введите сумму: "))
+      if take > money:
+       print("Недостаточно средств")
+      else:
+         money -= take
+         print(money)
+   elif choice == "3":
+       replenish = int(input("Введите сумму: "))
+       money += replenish
+       print(money)
+   
+   elif choice == "4":
+      print("До свидание")
+      break 
